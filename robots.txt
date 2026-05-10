@@ -1,0 +1,15 @@
+# robots.txt – Mesón El Pase
+# https://www.mesonelpase.es/
+
+User-agent: *
+Allow: /
+
+# Bloquear archivos que no deben indexarse
+Disallow: /.claude/
+Disallow: /*.json$
+
+# Crawl delay para bots menos prioritarios
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://www.mesonelpase.es/sitemap.xml
